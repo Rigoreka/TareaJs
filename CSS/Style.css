@@ -1,0 +1,151 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F7770F;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+   text-align: center;
+}
+.mi-section{
+    margin: 0;
+    padding: 0;
+}
+.mi-section>ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.mi-section>ul>li{flex-grow: 1;}
+
+.mi-section>ul>li>a{
+    text-decoration: none;
+    background-color: #F7770F ;
+    text-align: center;
+    color: #000000;
+    display: block;
+    padding: 1em;
+    color: #ffff;
+}
+
+.mi-section>ul>li>a:hover{
+    background-color: lightcoral;
+}
+
+
+h1 {
+    background-color: rgb(13, 123, 123);
+    text-align: center;
+    padding: 10 px;
+    color: #ffff;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 20px; 
+}
+
+h3{
+    text-align: center;
+    padding: 10 px;
+    color: #ffff;
+    border-radius: 10px;
+    font-size: 50px;
+    
+}
+
+header {
+    text-align: center;
+    background-color: #0066FF;
+    background-size: cover;
+    overflow: hidden;
+    color: #F5F5F5;
+}
+
+footer {
+
+    background-color: #0066FF;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+footer img {
+    width: 10%;
+    height: auto;
+}
+
+.contacto a {
+    align-items: center;
+    vertical-align: middle;
+    color: #F5F5F5;
+    ;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.contacto a img {
+    vertical-align: middle;
+    width: 50px;
+    margin: 20px;
+    height: auto;
+}
+
+/*Ejercicio 1*/
+.container {
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px red;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    flex-direction: column; /* Esto hace que los elementos se apilen verticalmente */ 
+
+}
+
+button {
+    margin-bottom: 10px;
+    align-items: center;
+    background-color:skyblue;
+    border-color: #ffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*Estilo Pokemon*/
+.fondo{
+    background-image: url(/Img/pokemo.jpg);
+}
+.estilopoke{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: red;
+}
+/*Galeria*/
+.imagendere{
+    margin-left: 10px; 
+    width: 100px;
+}
+
+.preview img{
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+
+}
+.preview.img:hover{
+    cursor: pointer;
+}
+.visor{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+

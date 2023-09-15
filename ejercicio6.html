@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DañoPokemon</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body class="fondo">
+    <section class="estilopoke">
+        <h1>Calculadora de Daño Pokemon</h1>
+        <label for="Tipo de Pokemon">Tipo Pokemon</label>
+        <select name="Tipo de Pokemon" id="elec1">
+            <option value="" disabled selected>Seleccionar</option>
+            <option value="Electro">Electro</option>
+            <option value="Agua">Agua</option>
+            <option value="Planta">Planta</option>
+            <option value="Fuego">Fuego</option>
+        </select>
+        <label for="Tipo de Pokemon">Tipo Pokemon</label>
+        <select name="Tipo de Pokemon" id="elec2">
+            <option value="" disabled selected>Seleccionar</option>
+            <option value="Electro">Electro</option>
+            <option value="Agua">Agua</option>
+            <option value="Planta">Planta</option>
+            <option value="Fuego">Fuego</option>
+        </select>
+        <label2 for="Ataque">Ataque</label>
+            <input type="number" id="ataque">
+            <label for="Defensa">Defensa</label>
+            <input type="number" id="defensa">
+
+            <button onclick="MostrarE()">Eficacia</button>
+            <div class="container">
+                <textarea name="" id="texsalida" cols="30" rows="10"></textarea>
+                <img src="Img/pikachu.png" alt="Pokemon" class="imagendere">
+            </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
