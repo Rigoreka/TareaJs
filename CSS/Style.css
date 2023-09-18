@@ -128,24 +128,43 @@ button {
    background-color: red;
 }
 /*Galeria*/
-.imagendere{
-    margin-left: 10px; 
-    width: 100px;
+.galeria{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    background-color: #e3f2ff;
 }
 
-.preview img{
-    height: 100px;
-    width: 100px;
-    border-radius: 60px;
-
+.galeria header{
+    font: bold 1.3em verdana;
+    text-align: center;
 }
-.preview.img:hover{
+
+.galeria nav{
+    float: left;
+    width: 25%;
+    background-color: #e3f2ff;
+}
+
+.galeria nav img{
+    width: 35%;
+    margin: 5%;
     cursor: pointer;
 }
-.visor{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+
+.principal{
+    float:  left;
+    width: 50%;
 }
 
+.principal .visor{
+    width: 30%;
+    margin: 10% auto;
+    text-align: center;
+}
+
+.principal .visor img{
+    width: 200%;
+    height: auto;
+}
 

@@ -135,7 +135,7 @@ function MostrarE() {
 /*Visor de imagenes*/
 function changeImg(id){
     let visor=document.getElementById("visorid")
-    visor.setAttribute("src",`Img/galeria${id}.jpg`)
+    visor.setAttribute("src",`Img/galeria${id}.svg`)
 }
 
 /*Coche en movimiento*/

@@ -6,16 +6,22 @@
     <title>Galeria</title>
     <link rel="stylesheet" href="CSS/Style.css">
 </head>
-<body>
-    <h1>Galeria de imagenes tiernas</h1>
-    <div class="contenedor">
-        <div class="preview">
-            <img onclick="changeImg(1)" src="Img/galeria1.jpg" alt="">
-            <img onclick="changeImg(2)" src="Img/galeria2.jpg" alt="">
-            <img onclick="changeImg(3)" src="Img/galeria3.jpg" alt="">
-        </div>
-        
-        <img src="Img/galeria1.jpg" alt="" class="visor" id="visorid">
+<body class="galeria">
+    <header>
+        <h1>Galeria de imagenes tiernas</h1>
+    </header>
+    <nav>
+            <img onclick="changeImg(1)" src="Img/galeria1.svg" alt="">
+            <img onclick="changeImg(2)" src="Img/galeria2.svg" alt="">
+            <img onclick="changeImg(3)" src="Img/galeria3.svg" alt="">
+            <img onclick="changeImg(4)" src="Img/galeria4.svg" alt="">
+            <img onclick="changeImg(5)" src="Img/galeria5.svg" alt="">
+            <img onclick="changeImg(6)" src="Img/galeria6.svg" alt="">
+    </nav>
+    <div class="principal">
+        <div class="visor">
+            <img src="Img/galeria1.svg" alt="" class="visor" id="visorid">
+        </div>  
     </div>
     <script src="script.js"></script>
 </body>
